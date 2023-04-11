@@ -1,0 +1,6 @@
+com\xkk\mango\core\page\PageRequest.class
+com\xkk\mango\core\page\PageResult.class
+com\xkk\mango\core\page\MybatisPageHelper.class
+com\xkk\mango\core\http\HttpStatus.class
+com\xkk\mango\core\http\HttpResult.class
+com\xkk\mango\core\service\CurdService.class

@@ -1,0 +1,21 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: mango-config
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+    config:
+      label: master
+      server:
+        git:
+          uri: https://gitee.com/wx_40b62a7466/config-repo.git
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
